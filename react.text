@@ -1,0 +1,84 @@
+
+
+
+     REACT ----js library(front end development)
+     basic commands
+
+     -to create project:npx create-react-app projectname
+     -to run project:npm start
+      -to install react material ui- npm install @mui/material @emotion/react @emotion/styled
+       -to build a project----npm run build
+
+       -to install react bootsrap-----npm install react-bootstrap bootstrap
+       -to install reaxt router dom------npm i react-router-dom
+
+
+     basic concepts
+
+
+     reusable component based approach
+
+     jsx: javascript xml
+
+     fast
+
+
+
+     front end difference
+
+     concept         angular              react           vue
+
+     1-developer    framework--google     meta/facebook   framework-opensource
+     2-language      -typescript            javascript      javascript
+    3- Dom           -real dom             virtual dom     virtual dom
+    4-data sharing   -two way              -one way        -two way
+                      data binding          data binding   data binding
+
+
+
+
+
+react is a component based application.
+components in react:
+
+two types of components
+
+1.class based components----------stateful components
+component generation logic is inside class
+
+2.function based components----------stateless components
+component generation logic is inside function
+
+
+-create a js file having a name start with capital letter
+-function based components are mostly created in REACT
+
+
+
+
+-App.js is the parent component in react other created components are child components
+-in react only parent to child data sharing(one way data sharing) is possible
+
+
+state: state is used to store values. (Also state has an advantage to transfer value )i.e we can share the state into child components
+
+
+based on components state is classified into two
+class based components Also known as stateful components. by default functions to create state is available in this thats why its called stateful components.
+
+by default there was no functions available to create state in function based components so its called stateless components
+
+after version 16 of react,   react hook is introduced
+
+
+hook------- hook is a  predefined function. and name start with use keyword
+use predefined-function()
+use state()
+
+state creation syntax:
+
+const[statename,statevalueupdationfunction]=useState()
+
+
+
+
